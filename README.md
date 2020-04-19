@@ -17,6 +17,5 @@ https://www.coursera.org/learn/c-plus-plus-red?specialization=c-plus-plus-modern
 4.Основы разработки на С++: коричневый пояс
 https://www.coursera.org/learn/c-plus-plus-brown?specialization=c-plus-plus-modern-development
 
-5.
-Основы разработки на С++: черный пояс
+5.Основы разработки на С++: черный пояс \т
 https://www.coursera.org/learn/c-plus-plus-black
