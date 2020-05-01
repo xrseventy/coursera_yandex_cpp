@@ -57,27 +57,27 @@ include CMakeFiles/2_week.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/2_week.dir/flags.make
 
-CMakeFiles/2_week.dir/average_temp.cpp.o: CMakeFiles/2_week.dir/flags.make
-CMakeFiles/2_week.dir/average_temp.cpp.o: ../average_temp.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alfa/coursera_yandex_cpp/white/2_week/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/2_week.dir/average_temp.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/2_week.dir/average_temp.cpp.o -c /home/alfa/coursera_yandex_cpp/white/2_week/average_temp.cpp
+CMakeFiles/2_week.dir/map_bus_stop_1.cpp.o: CMakeFiles/2_week.dir/flags.make
+CMakeFiles/2_week.dir/map_bus_stop_1.cpp.o: ../map_bus_stop_1.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alfa/coursera_yandex_cpp/white/2_week/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/2_week.dir/map_bus_stop_1.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/2_week.dir/map_bus_stop_1.cpp.o -c /home/alfa/coursera_yandex_cpp/white/2_week/map_bus_stop_1.cpp
 
-CMakeFiles/2_week.dir/average_temp.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/2_week.dir/average_temp.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alfa/coursera_yandex_cpp/white/2_week/average_temp.cpp > CMakeFiles/2_week.dir/average_temp.cpp.i
+CMakeFiles/2_week.dir/map_bus_stop_1.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/2_week.dir/map_bus_stop_1.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alfa/coursera_yandex_cpp/white/2_week/map_bus_stop_1.cpp > CMakeFiles/2_week.dir/map_bus_stop_1.cpp.i
 
-CMakeFiles/2_week.dir/average_temp.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/2_week.dir/average_temp.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alfa/coursera_yandex_cpp/white/2_week/average_temp.cpp -o CMakeFiles/2_week.dir/average_temp.cpp.s
+CMakeFiles/2_week.dir/map_bus_stop_1.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/2_week.dir/map_bus_stop_1.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alfa/coursera_yandex_cpp/white/2_week/map_bus_stop_1.cpp -o CMakeFiles/2_week.dir/map_bus_stop_1.cpp.s
 
 # Object files for target 2_week
 2_week_OBJECTS = \
-"CMakeFiles/2_week.dir/average_temp.cpp.o"
+"CMakeFiles/2_week.dir/map_bus_stop_1.cpp.o"
 
 # External object files for target 2_week
 2_week_EXTERNAL_OBJECTS =
 
-2_week: CMakeFiles/2_week.dir/average_temp.cpp.o
+2_week: CMakeFiles/2_week.dir/map_bus_stop_1.cpp.o
 2_week: CMakeFiles/2_week.dir/build.make
 2_week: CMakeFiles/2_week.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/alfa/coursera_yandex_cpp/white/2_week/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable 2_week"

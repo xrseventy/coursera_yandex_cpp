@@ -10,6 +10,11 @@ add_executable(2_week
        # using_chrono.cpp)
         #replase_string.cpp)
        # reverse.cpp)
-        average_temp.cpp)
-
+       # avg_temp.cpp)
+       # query.cpp)
+        # montly_deal.cpp)
+      #  test_montly_deal.cpp)
+     #   test_map.cpp)
+      #  map_country_capital.cpp)
+        map_bus_stop_1.cpp)
 

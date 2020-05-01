@@ -6,8 +6,12 @@
 
 #IncludeRegexTransform: 
 
-/home/alfa/coursera_yandex_cpp/white/2_week/average_temp.cpp
+/home/alfa/coursera_yandex_cpp/white/2_week/map_bus_stop_1.cpp
 iostream
+-
+string
+-
+map
 -
 vector
 -

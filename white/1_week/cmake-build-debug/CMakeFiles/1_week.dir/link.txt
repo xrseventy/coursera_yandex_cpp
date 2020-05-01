@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/1_week.dir/binary_num.cpp.o  -o 1_week 

@@ -123,32 +123,32 @@ depend:
 	$(MAKE) -f CMakeFiles/2_week.dir/build.make CMakeFiles/2_week.dir/build
 .PHONY : 2_week/fast
 
-average_temp.o: average_temp.cpp.o
+map_bus_stop_1.o: map_bus_stop_1.cpp.o
 
-.PHONY : average_temp.o
+.PHONY : map_bus_stop_1.o
 
 # target to build an object file
-average_temp.cpp.o:
-	$(MAKE) -f CMakeFiles/2_week.dir/build.make CMakeFiles/2_week.dir/average_temp.cpp.o
-.PHONY : average_temp.cpp.o
+map_bus_stop_1.cpp.o:
+	$(MAKE) -f CMakeFiles/2_week.dir/build.make CMakeFiles/2_week.dir/map_bus_stop_1.cpp.o
+.PHONY : map_bus_stop_1.cpp.o
 
-average_temp.i: average_temp.cpp.i
+map_bus_stop_1.i: map_bus_stop_1.cpp.i
 
-.PHONY : average_temp.i
+.PHONY : map_bus_stop_1.i
 
 # target to preprocess a source file
-average_temp.cpp.i:
-	$(MAKE) -f CMakeFiles/2_week.dir/build.make CMakeFiles/2_week.dir/average_temp.cpp.i
-.PHONY : average_temp.cpp.i
+map_bus_stop_1.cpp.i:
+	$(MAKE) -f CMakeFiles/2_week.dir/build.make CMakeFiles/2_week.dir/map_bus_stop_1.cpp.i
+.PHONY : map_bus_stop_1.cpp.i
 
-average_temp.s: average_temp.cpp.s
+map_bus_stop_1.s: map_bus_stop_1.cpp.s
 
-.PHONY : average_temp.s
+.PHONY : map_bus_stop_1.s
 
 # target to generate assembly for a file
-average_temp.cpp.s:
-	$(MAKE) -f CMakeFiles/2_week.dir/build.make CMakeFiles/2_week.dir/average_temp.cpp.s
-.PHONY : average_temp.cpp.s
+map_bus_stop_1.cpp.s:
+	$(MAKE) -f CMakeFiles/2_week.dir/build.make CMakeFiles/2_week.dir/map_bus_stop_1.cpp.s
+.PHONY : map_bus_stop_1.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... 2_week"
-	@echo "... average_temp.o"
-	@echo "... average_temp.i"
-	@echo "... average_temp.s"
+	@echo "... map_bus_stop_1.o"
+	@echo "... map_bus_stop_1.i"
+	@echo "... map_bus_stop_1.s"
 .PHONY : help
 
 

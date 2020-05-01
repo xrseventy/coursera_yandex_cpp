@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/alfa/coursera_yandex_cpp/white/2_week/average_temp.cpp" "/home/alfa/coursera_yandex_cpp/white/2_week/cmake-build-debug/CMakeFiles/2_week.dir/average_temp.cpp.o"
+  "/home/alfa/coursera_yandex_cpp/white/2_week/map_bus_stop_1.cpp" "/home/alfa/coursera_yandex_cpp/white/2_week/cmake-build-debug/CMakeFiles/2_week.dir/map_bus_stop_1.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
