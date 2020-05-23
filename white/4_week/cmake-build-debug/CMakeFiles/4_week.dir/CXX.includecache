@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/alfa/coursera_yandex_cpp/white/4_week/iosrtream_table_read_input.cpp
+iostream
+-
+fstream
+-
+string
+-
+iomanip
+-
+
