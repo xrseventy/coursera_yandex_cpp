@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/alfa/coursera_yandex_cpp/white/3_week/constructor_name_surname_3.cpp
+iostream
+/home/alfa/coursera_yandex_cpp/white/3_week/iostream
+algorithm
+-
+map
+-
+vector
+-
+string
+-
+

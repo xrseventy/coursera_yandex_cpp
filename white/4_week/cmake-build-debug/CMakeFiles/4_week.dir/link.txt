@@ -1,1 +1,1 @@
-/usr/bin/c++  -g   CMakeFiles/4_week.dir/iosrtream_table_read_input.cpp.o  -o 4_week 
+/usr/bin/c++  -g   CMakeFiles/4_week.dir/exceptions/time_server.cpp.o  -o 4_week 

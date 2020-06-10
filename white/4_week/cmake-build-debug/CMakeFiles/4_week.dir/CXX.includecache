@@ -6,13 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/alfa/coursera_yandex_cpp/white/4_week/iosrtream_table_read_input.cpp
+/home/alfa/coursera_yandex_cpp/white/4_week/exceptions/time_server.cpp
 iostream
 -
-fstream
+exception
 -
 string
--
-iomanip
 -
 

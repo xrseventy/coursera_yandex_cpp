@@ -34,10 +34,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /snap/clion/112/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /snap/clion/114/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /snap/clion/112/bin/cmake/linux/bin/cmake -E remove -f
+RM = /snap/clion/114/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -57,27 +57,27 @@ include CMakeFiles/4_week.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/4_week.dir/flags.make
 
-CMakeFiles/4_week.dir/iosrtream_table_read_input.cpp.o: CMakeFiles/4_week.dir/flags.make
-CMakeFiles/4_week.dir/iosrtream_table_read_input.cpp.o: ../iosrtream_table_read_input.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alfa/coursera_yandex_cpp/white/4_week/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/4_week.dir/iosrtream_table_read_input.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/4_week.dir/iosrtream_table_read_input.cpp.o -c /home/alfa/coursera_yandex_cpp/white/4_week/iosrtream_table_read_input.cpp
+CMakeFiles/4_week.dir/exceptions/time_server.cpp.o: CMakeFiles/4_week.dir/flags.make
+CMakeFiles/4_week.dir/exceptions/time_server.cpp.o: ../exceptions/time_server.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alfa/coursera_yandex_cpp/white/4_week/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/4_week.dir/exceptions/time_server.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/4_week.dir/exceptions/time_server.cpp.o -c /home/alfa/coursera_yandex_cpp/white/4_week/exceptions/time_server.cpp
 
-CMakeFiles/4_week.dir/iosrtream_table_read_input.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/4_week.dir/iosrtream_table_read_input.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alfa/coursera_yandex_cpp/white/4_week/iosrtream_table_read_input.cpp > CMakeFiles/4_week.dir/iosrtream_table_read_input.cpp.i
+CMakeFiles/4_week.dir/exceptions/time_server.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/4_week.dir/exceptions/time_server.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alfa/coursera_yandex_cpp/white/4_week/exceptions/time_server.cpp > CMakeFiles/4_week.dir/exceptions/time_server.cpp.i
 
-CMakeFiles/4_week.dir/iosrtream_table_read_input.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/4_week.dir/iosrtream_table_read_input.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alfa/coursera_yandex_cpp/white/4_week/iosrtream_table_read_input.cpp -o CMakeFiles/4_week.dir/iosrtream_table_read_input.cpp.s
+CMakeFiles/4_week.dir/exceptions/time_server.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/4_week.dir/exceptions/time_server.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alfa/coursera_yandex_cpp/white/4_week/exceptions/time_server.cpp -o CMakeFiles/4_week.dir/exceptions/time_server.cpp.s
 
 # Object files for target 4_week
 4_week_OBJECTS = \
-"CMakeFiles/4_week.dir/iosrtream_table_read_input.cpp.o"
+"CMakeFiles/4_week.dir/exceptions/time_server.cpp.o"
 
 # External object files for target 4_week
 4_week_EXTERNAL_OBJECTS =
 
-4_week: CMakeFiles/4_week.dir/iosrtream_table_read_input.cpp.o
+4_week: CMakeFiles/4_week.dir/exceptions/time_server.cpp.o
 4_week: CMakeFiles/4_week.dir/build.make
 4_week: CMakeFiles/4_week.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/alfa/coursera_yandex_cpp/white/4_week/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable 4_week"

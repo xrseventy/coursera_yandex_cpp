@@ -39,10 +39,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /snap/clion/112/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /snap/clion/114/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /snap/clion/112/bin/cmake/linux/bin/cmake -E remove -f
+RM = /snap/clion/114/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /home/alfa/coursera_yandex_cpp/white/4_week/cmake-build-debug
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/snap/clion/112/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/snap/clion/114/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/snap/clion/112/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/snap/clion/114/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -123,32 +123,32 @@ depend:
 	$(MAKE) -f CMakeFiles/4_week.dir/build.make CMakeFiles/4_week.dir/build
 .PHONY : 4_week/fast
 
-iosrtream_table_read_input.o: iosrtream_table_read_input.cpp.o
+exceptions/time_server.o: exceptions/time_server.cpp.o
 
-.PHONY : iosrtream_table_read_input.o
+.PHONY : exceptions/time_server.o
 
 # target to build an object file
-iosrtream_table_read_input.cpp.o:
-	$(MAKE) -f CMakeFiles/4_week.dir/build.make CMakeFiles/4_week.dir/iosrtream_table_read_input.cpp.o
-.PHONY : iosrtream_table_read_input.cpp.o
+exceptions/time_server.cpp.o:
+	$(MAKE) -f CMakeFiles/4_week.dir/build.make CMakeFiles/4_week.dir/exceptions/time_server.cpp.o
+.PHONY : exceptions/time_server.cpp.o
 
-iosrtream_table_read_input.i: iosrtream_table_read_input.cpp.i
+exceptions/time_server.i: exceptions/time_server.cpp.i
 
-.PHONY : iosrtream_table_read_input.i
+.PHONY : exceptions/time_server.i
 
 # target to preprocess a source file
-iosrtream_table_read_input.cpp.i:
-	$(MAKE) -f CMakeFiles/4_week.dir/build.make CMakeFiles/4_week.dir/iosrtream_table_read_input.cpp.i
-.PHONY : iosrtream_table_read_input.cpp.i
+exceptions/time_server.cpp.i:
+	$(MAKE) -f CMakeFiles/4_week.dir/build.make CMakeFiles/4_week.dir/exceptions/time_server.cpp.i
+.PHONY : exceptions/time_server.cpp.i
 
-iosrtream_table_read_input.s: iosrtream_table_read_input.cpp.s
+exceptions/time_server.s: exceptions/time_server.cpp.s
 
-.PHONY : iosrtream_table_read_input.s
+.PHONY : exceptions/time_server.s
 
 # target to generate assembly for a file
-iosrtream_table_read_input.cpp.s:
-	$(MAKE) -f CMakeFiles/4_week.dir/build.make CMakeFiles/4_week.dir/iosrtream_table_read_input.cpp.s
-.PHONY : iosrtream_table_read_input.cpp.s
+exceptions/time_server.cpp.s:
+	$(MAKE) -f CMakeFiles/4_week.dir/build.make CMakeFiles/4_week.dir/exceptions/time_server.cpp.s
+.PHONY : exceptions/time_server.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... 4_week"
-	@echo "... iosrtream_table_read_input.o"
-	@echo "... iosrtream_table_read_input.i"
-	@echo "... iosrtream_table_read_input.s"
+	@echo "... exceptions/time_server.o"
+	@echo "... exceptions/time_server.i"
+	@echo "... exceptions/time_server.s"
 .PHONY : help
 
 

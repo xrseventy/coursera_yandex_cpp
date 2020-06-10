@@ -39,10 +39,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /snap/clion/111/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /snap/clion/112/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /snap/clion/111/bin/cmake/linux/bin/cmake -E remove -f
+RM = /snap/clion/112/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /home/alfa/coursera_yandex_cpp/white/2_week/cmake-build-debug
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/snap/clion/111/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/snap/clion/112/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/snap/clion/111/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/snap/clion/112/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -123,32 +123,32 @@ depend:
 	$(MAKE) -f CMakeFiles/2_week.dir/build.make CMakeFiles/2_week.dir/build
 .PHONY : 2_week/fast
 
-map_bus_stop_1.o: map_bus_stop_1.cpp.o
+set_bus_stop_3.o: set_bus_stop_3.cpp.o
 
-.PHONY : map_bus_stop_1.o
+.PHONY : set_bus_stop_3.o
 
 # target to build an object file
-map_bus_stop_1.cpp.o:
-	$(MAKE) -f CMakeFiles/2_week.dir/build.make CMakeFiles/2_week.dir/map_bus_stop_1.cpp.o
-.PHONY : map_bus_stop_1.cpp.o
+set_bus_stop_3.cpp.o:
+	$(MAKE) -f CMakeFiles/2_week.dir/build.make CMakeFiles/2_week.dir/set_bus_stop_3.cpp.o
+.PHONY : set_bus_stop_3.cpp.o
 
-map_bus_stop_1.i: map_bus_stop_1.cpp.i
+set_bus_stop_3.i: set_bus_stop_3.cpp.i
 
-.PHONY : map_bus_stop_1.i
+.PHONY : set_bus_stop_3.i
 
 # target to preprocess a source file
-map_bus_stop_1.cpp.i:
-	$(MAKE) -f CMakeFiles/2_week.dir/build.make CMakeFiles/2_week.dir/map_bus_stop_1.cpp.i
-.PHONY : map_bus_stop_1.cpp.i
+set_bus_stop_3.cpp.i:
+	$(MAKE) -f CMakeFiles/2_week.dir/build.make CMakeFiles/2_week.dir/set_bus_stop_3.cpp.i
+.PHONY : set_bus_stop_3.cpp.i
 
-map_bus_stop_1.s: map_bus_stop_1.cpp.s
+set_bus_stop_3.s: set_bus_stop_3.cpp.s
 
-.PHONY : map_bus_stop_1.s
+.PHONY : set_bus_stop_3.s
 
 # target to generate assembly for a file
-map_bus_stop_1.cpp.s:
-	$(MAKE) -f CMakeFiles/2_week.dir/build.make CMakeFiles/2_week.dir/map_bus_stop_1.cpp.s
-.PHONY : map_bus_stop_1.cpp.s
+set_bus_stop_3.cpp.s:
+	$(MAKE) -f CMakeFiles/2_week.dir/build.make CMakeFiles/2_week.dir/set_bus_stop_3.cpp.s
+.PHONY : set_bus_stop_3.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... 2_week"
-	@echo "... map_bus_stop_1.o"
-	@echo "... map_bus_stop_1.i"
-	@echo "... map_bus_stop_1.s"
+	@echo "... set_bus_stop_3.o"
+	@echo "... set_bus_stop_3.i"
+	@echo "... set_bus_stop_3.s"
 .PHONY : help
 
 

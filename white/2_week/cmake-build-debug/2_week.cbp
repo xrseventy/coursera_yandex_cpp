@@ -84,7 +84,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/alfa/coursera_yandex_cpp/white/2_week/map_bus_stop_1.cpp">
+		<Unit filename="/home/alfa/coursera_yandex_cpp/white/2_week/set_bus_stop_3.cpp">
 			<Option target="2_week"/>
 		</Unit>
 		<Unit filename="/home/alfa/coursera_yandex_cpp/white/2_week/CMakeLists.txt">

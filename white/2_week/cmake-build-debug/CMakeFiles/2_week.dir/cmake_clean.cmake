@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "2_week"
   "2_week.pdb"
-  "CMakeFiles/2_week.dir/map_bus_stop_1.cpp.o"
+  "CMakeFiles/2_week.dir/set_bus_stop_3.cpp.o"
 )
 
 # Per-language clean rules from dependency scanning.

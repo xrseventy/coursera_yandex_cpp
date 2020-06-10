@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/alfa/coursera_yandex_cpp/white/4_week/iosrtream_table_read_input.cpp" "/home/alfa/coursera_yandex_cpp/white/4_week/cmake-build-debug/CMakeFiles/4_week.dir/iosrtream_table_read_input.cpp.o"
+  "/home/alfa/coursera_yandex_cpp/white/4_week/exceptions/time_server.cpp" "/home/alfa/coursera_yandex_cpp/white/4_week/cmake-build-debug/CMakeFiles/4_week.dir/exceptions/time_server.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

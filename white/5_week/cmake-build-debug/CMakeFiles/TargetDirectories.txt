@@ -1,0 +1,3 @@
+/home/alfa/coursera_yandex_cpp/white/5_week/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/alfa/coursera_yandex_cpp/white/5_week/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/alfa/coursera_yandex_cpp/white/5_week/cmake-build-debug/CMakeFiles/5_week.dir

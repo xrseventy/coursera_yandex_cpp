@@ -82,7 +82,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/alfa/coursera_yandex_cpp/white/4_week/iosrtream_table_read_input.cpp">
+		<Unit filename="/home/alfa/coursera_yandex_cpp/white/4_week/exceptions/time_server.cpp">
 			<Option target="4_week"/>
 		</Unit>
 		<Unit filename="/home/alfa/coursera_yandex_cpp/white/4_week/CMakeLists.txt">

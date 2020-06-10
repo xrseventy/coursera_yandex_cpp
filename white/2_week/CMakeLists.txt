@@ -16,5 +16,10 @@ add_executable(2_week
       #  test_montly_deal.cpp)
      #   test_map.cpp)
       #  map_country_capital.cpp)
-        map_bus_stop_1.cpp)
+        # map_bus_stop_1.cpp
+        #map_bus_stop_2.cpp
+        #set_uniq_string.cpp
+        #set_BuildMapValuesSet.cpp
+      #  set_synonym.cpp
+       # set_bus_stop_3.cpp)
 

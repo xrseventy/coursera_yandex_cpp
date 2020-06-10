@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/3_week.dir/constructor_name_surname_3.cpp.o  -o 3_week 

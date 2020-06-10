@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="3_week" targetName="3_week" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="619fc9a2-1bfa-4ae6-badc-010417422043" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../2_week/map_bus_stop_1_test.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2_week/map_bus_stop_2.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2_week/set_synonym.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2_week/set_uniq_string.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algos_sort_mod.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class_and_struct_name_surname_1.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class_and_struct_name_surname_2.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class_and_struct_sort_strings.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/constructor_name_surname_3.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sort_without_register.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_destruct.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../4_week/Struct_ LectureTitle.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2_week/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../2_week/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2_week/cmake-build-debug/2_week" beforeDir="false" afterPath="$PROJECT_DIR$/../2_week/cmake-build-debug/2_week" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2_week/cmake-build-debug/2_week.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../2_week/cmake-build-debug/2_week.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2_week/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../2_week/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2_week/cmake-build-debug/CMakeFiles/2_week.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../2_week/cmake-build-debug/CMakeFiles/2_week.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2_week/cmake-build-debug/CMakeFiles/2_week.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../2_week/cmake-build-debug/CMakeFiles/2_week.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2_week/cmake-build-debug/CMakeFiles/2_week.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../2_week/cmake-build-debug/CMakeFiles/2_week.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2_week/cmake-build-debug/CMakeFiles/2_week.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../2_week/cmake-build-debug/CMakeFiles/2_week.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2_week/cmake-build-debug/CMakeFiles/2_week.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/../2_week/cmake-build-debug/CMakeFiles/2_week.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2_week/cmake-build-debug/CMakeFiles/2_week.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../2_week/cmake-build-debug/CMakeFiles/2_week.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2_week/cmake-build-debug/CMakeFiles/2_week.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../2_week/cmake-build-debug/CMakeFiles/2_week.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2_week/cmake-build-debug/CMakeFiles/2_week.dir/map_bus_stop_1.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../2_week/cmake-build-debug/CMakeFiles/2_week.dir/map_bus_stop_1.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2_week/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../2_week/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2_week/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../2_week/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2_week/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../2_week/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2_week/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../2_week/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2_week/map_bus_stop_1.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../2_week/map_bus_stop_1.cpp" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1bWZGAWXMI8opqvTHY1CWj9f1Ii" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cf.first.check.clang-format" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../4_week" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="RunManager">
+    <configuration name="3_week" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="3_week" TARGET_NAME="3_week" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="3_week" RUN_TARGET_NAME="3_week">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="619fc9a2-1bfa-4ae6-badc-010417422043" name="Default Changelist" comment="" />
+      <created>1588749711151</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1588749711151</updated>
+      <workItem from="1588749712342" duration="9000" />
+      <workItem from="1588749826320" duration="790000" />
+      <workItem from="1588750633803" duration="5336000" />
+      <workItem from="1589035006414" duration="191000" />
+      <workItem from="1589123039277" duration="10333000" />
+      <workItem from="1589272382033" duration="1262000" />
+      <workItem from="1589300409998" duration="21000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1241" y="311" width="424" height="491" key="FileChooserDialogImpl" timestamp="1589300429023">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="1241" y="311" width="424" height="491" key="FileChooserDialogImpl/72.27.1848.1053@72.27.1848.1053" timestamp="1589300429023" />
+    <state width="1802" height="275" key="GridCell.Tab.0.bottom" timestamp="1589222894938">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1802" height="275" key="GridCell.Tab.0.bottom/72.27.1848.1053@72.27.1848.1053" timestamp="1589222894938" />
+    <state width="1802" height="275" key="GridCell.Tab.0.center" timestamp="1589222894938">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1802" height="275" key="GridCell.Tab.0.center/72.27.1848.1053@72.27.1848.1053" timestamp="1589222894938" />
+    <state width="1802" height="275" key="GridCell.Tab.0.left" timestamp="1589222894937">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1802" height="275" key="GridCell.Tab.0.left/72.27.1848.1053@72.27.1848.1053" timestamp="1589222894937" />
+    <state width="1802" height="275" key="GridCell.Tab.0.right" timestamp="1589222894938">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1802" height="275" key="GridCell.Tab.0.right/72.27.1848.1053@72.27.1848.1053" timestamp="1589222894938" />
+    <state width="1802" height="340" key="GridCell.Tab.1.bottom" timestamp="1589123363211">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1802" height="340" key="GridCell.Tab.1.bottom/72.27.1848.1053@72.27.1848.1053" timestamp="1589123363211" />
+    <state width="1802" height="340" key="GridCell.Tab.1.center" timestamp="1589123363210">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1802" height="340" key="GridCell.Tab.1.center/72.27.1848.1053@72.27.1848.1053" timestamp="1589123363210" />
+    <state width="1802" height="340" key="GridCell.Tab.1.left" timestamp="1589123363210">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1802" height="340" key="GridCell.Tab.1.left/72.27.1848.1053@72.27.1848.1053" timestamp="1589123363210" />
+    <state width="1802" height="340" key="GridCell.Tab.1.right" timestamp="1589123363211">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1802" height="340" key="GridCell.Tab.1.right/72.27.1848.1053@72.27.1848.1053" timestamp="1589123363211" />
+    <state x="234" y="259" width="672" height="678" key="search.everywhere.popup" timestamp="1589133909079">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="234" y="259" width="672" height="678" key="search.everywhere.popup/72.27.1848.1053@72.27.1848.1053" timestamp="1589133909079" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/class_and_struct_sort_strings.cpp</url>
+          <line>33</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

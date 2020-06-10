@@ -17,6 +17,8 @@ using namespace std;
 
 void buses_for_stop(const map<string, vector<string>>& buses_and_stops, string find_stop)
 {
+	if (buses_and_stops.count(find_stop) == 0)
+		cout << "No stop" << endl;
 	for (const auto& item : buses_and_stops)
 	{
 		for (const auto& stop : item.second)
@@ -29,41 +31,82 @@ void buses_for_stop(const map<string, vector<string>>& buses_and_stops, string f
 
 }
 
-void stops_for_buses(const map<string, vector<string>>& buses_and_stops, string find_bus)
-{
+void stops_for_buses(const map<string, vector<string>>& buses_and_stops, string find_bus) {
+
+	int l = 0;
 	if (buses_and_stops.count(find_bus) == 0)
 		cout << "No bus" << endl;
 
-	for (const auto &item : buses_and_stops)
-	{
-		if (find_bus == item.first)
+	else
 		{
-			cout << "Stop " ;
-			for (const auto &stop : item.second)
+		for (const auto item : buses_and_stops)
+		{
+			//cout << "          TEST FIND" << item.first.find(find_bus) << "\n";
+			if (item.first == find_bus)
 			{
-				cout << stop << ":";
-				string needs_stops;
-				for (const auto& item : buses_and_stops)
+				for (auto stop : item.second)
 				{
-					for (const auto& this_stop : item.second)
-					{
-						if (stop == this_stop)
-							needs_stops = item.first;
+					cout << "Stop " << stop << ":";
+					int l2 = 0;
+					vector<string> v;
+					//cout << "item.first =" << item.first << "\n";
+					//cout << "need_bus" << need_bus << "\n";
+
+					//cout << "find bus =" << find_bus << "\n";
+					//cout << "item.first =" << item.first << "\n";
+
+					for (auto item2 : buses_and_stops) {
+						for (auto need_stop : item2.second) {
+							if (need_stop == stop) {
+								v.push_back(item2.first);
+								l2++;
+							}
+						}
 					}
-					if (needs_stops == find_bus)
+					if (l2 == 0)
 						cout << "no interchange";
-					else
-						cout << needs_stops << " ";
+					else if (l2 > 0)
+					{
+						for (const auto &bus : item.second)
+						{
+							for (auto fit_bus : v)
+							{
+								if (fit_bus == bus)
+								{
+									cout << " " << bus;
+								}
+							}
+						}
+					}
+					cout << "\n";
 				}
-				cout << "\n";
+				l++;
 
 			}
-			//if (.size() == 1)
-				//	cout << "no interchange";
-			//cout << "\n";
-		}
 
-	}
+		}
+		}
+}
+
+
+
+void all_buses(const map<string, vector<string>>& buses_to_stops)
+{
+	if (buses_to_stops.empty())
+	{
+		cout << "No buses" << endl;
+	} else
+		{
+		for (const auto& bus_item : buses_to_stops)
+		{
+			cout << "Bus " << bus_item.first << ": ";
+			for (const string& stop : bus_item.second)
+			{
+				cout << stop << " ";
+			}
+			cout << endl;
+		}
+		}
 }
 //                          BUSES_FOR_STOP
 
@@ -84,7 +127,9 @@ void stops_for_buses(const map<string, vector<string>>& buses_and_stops, string 
 //NEW_BUS 32 3 Tolstopaltsevo Marushkino Vnukovo
 //NEW_BUS 32K 6 Tolstopaltsevo Marushkino Vnukovo Peredelkino Solntsevo Skolkovo
 //STOPS_FOR_BUS 32K
-int main() {
+
+int main()
+{
 	int q;
 	cin >> q;
 
@@ -103,7 +148,6 @@ int main() {
 			cin >> bus >> stop_count;
 			vector<string> stops;
 			stops.resize(stop_count);
-			cout << "SIZE STOPS" << stops.size();
 
 			for (auto stop : stops)
 			{
@@ -130,10 +174,15 @@ int main() {
 
 		}
 
-	}
+		else if (operation_code == "ALL_BUSES")
+		{
+			all_buses(buses_and_stops);
+		}
 
-	return(0);
+
 	}
+	return(0);
+}
 
 //Печать словаря
 //	for (const auto& item : buses_and_stops)
@@ -145,4 +194,3 @@ int main() {
 //		}
 //		cout << "\n";
 //	}
-
